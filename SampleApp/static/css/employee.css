@@ -1,0 +1,12 @@
+h3{
+background-image: linear-gradient(to right,#aa076b, #61045f);
+text-align: center;
+margin-right: 41%;
+
+}
+form{
+	padding: 2rem;
+	height: 60vh;
+	width: 50vw;
+	background-image: linear-gradient(to right,#aa076b, #61045f);
+}

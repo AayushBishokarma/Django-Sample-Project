@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Registration</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/demo.css' %}">
+	<script type="text/javascript" src="{% static 'js/test.js' %}"></script>
+</head>
+<body>
+	<h3>Registration Form</h3>
+<form>
+	<label for="name">Name:</label><input type="text" placeholder="Enter your full name"><br><br>
+	<label for="name">Select Branch:</label>
+	<select>
+		<option>CSE</option>
+		<option>ECE</option>
+		<option>MECH</option>
+		<option>CIVIL</option>
+		
+	</select>
+	<br><br>
+	<label for="name">Year:</label>
+	<select>
+		<option>--Select Your Branch--</option>
+		<option>2018<option>
+		<option>2019</option>
+		<option>2020</option>
+		<option>2021</option>
+		<option>2022</option>
+	</select>
+	<br><br>
+	<label for="name">Pin Number:</label><input type="text"><br><br>
+	<div class="btn">
+	<input type="reset" name="Reset">
+	<input type="submit" name="Submit" style="float:right;">
+    </div>
+</form>
+<br><br>
+<img src="{% static 'images/download.jpg' %}">
+
+</body>
+</html>
